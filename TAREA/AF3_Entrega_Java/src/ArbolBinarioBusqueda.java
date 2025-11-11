@@ -1,4 +1,3 @@
-// Árbol Binario de Búsqueda (ABB) sin usar librerías externas
 public class ArbolBinarioBusqueda {
 
     public Nodo raiz;
@@ -112,7 +111,7 @@ public class ArbolBinarioBusqueda {
         return contarHojas(r.izq) + contarHojas(r.der);
     }
 
-    // Árbol completo: todos los niveles (excepto posiblemente el último) llenos y nodos a la izquierda
+    // Árbol completo todos los niveles (excepto posiblemente el último) llenos y nodos a la izquierda
     public boolean esCompleto() {
         if (raiz == null) return true;
         ColaNodo q = new ColaNodo(1000);
