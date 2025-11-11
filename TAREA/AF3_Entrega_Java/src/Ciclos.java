@@ -1,4 +1,3 @@
-// Clase principal Ciclos (Programacion 3+), sin paquetes ni imports externos
 public class Ciclos {
 
     public static void demoOrdenamientos() {
@@ -46,7 +45,7 @@ public class Ciclos {
     }
 
     public static void demoDijkstra() {
-        // Grafo ejemplo (puedes cambiarlo por el tuyo)
+        // Grafo ejemplo 
         int[][] graph = {
             {0,2,0,1,0,0},
             {0,0,1,0,0,0},
