@@ -1,7 +1,6 @@
-// Dijkstra clásico usando matriz de adyacencia y sin PriorityQueue
 public class Dijkstra {
 
-    // graph: matriz n x n, usar 0 si no hay arista, diagonal 0
+    // matriz n x n, usar 0 si no hay arista, diagonal 0
     public static int[] dijkstra(int[][] graph, int src) {
         int n = graph.length;
         int INF = Integer.MAX_VALUE / 4;
