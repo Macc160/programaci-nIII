@@ -29,13 +29,11 @@ public class Main {
 
         // Camino más corto a Cartagena
         List<String> shortestPath = Dijkstra.getPath(graph, "Cali", "Cartagena");
-        System.out.println("
-Camino más corto a Cartagena: " + shortestPath);
+        System.out.println("Camino más corto a Cartagena: " + shortestPath);
         System.out.println("Distancia: " + distances.get("Cartagena"));
 
         // Camino más largo
         String farthestCity = Collections.max(distances.entrySet(), Map.Entry.comparingByValue()).getKey();
-        System.out.println("
-Camino más largo desde Cali: " + farthestCity + " con distancia " + distances.get(farthestCity));
+        System.out.println("Camino más largo desde Cali: " + farthestCity + " con distancia " + distances.get(farthestCity));
     }
 }
